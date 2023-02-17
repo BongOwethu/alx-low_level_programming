@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
- * DEscription: Get a random number and print the number
+ * Description: Get a random number and print the number
  * and if it is positive, negavtive or zer
  * Return: 0 (Success)
  */
