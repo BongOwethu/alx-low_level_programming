@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_alphabet - Entyr point
- * Decription: Print the alphabet 10 times
- * Return: void
+ * print_alphabet_x10 - print alphabet 10 times in lowercase
+ *
+ * Return: Always 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c;
+	int   c;
 	int i = 0;
 
 	while (i < 10)
