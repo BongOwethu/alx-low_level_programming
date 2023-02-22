@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main -Entr point
+ * print_alphabet - Entyr point
  * Decription: Print the alphabet 10 times
  * Return: void
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char c;
 	int i = 0;
