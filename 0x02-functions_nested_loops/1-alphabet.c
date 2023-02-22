@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * @print_alphabet-Entry point
+ * print_alphabet - prints the lowercase alphabet
  * Description:A function tha prints the alphabet in lowercase
  * followed by a new line
- * Return: 0 (Success)
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char c = 'a';
+	int c = 'a';
 
 	while (c <= 'z')
 	{
