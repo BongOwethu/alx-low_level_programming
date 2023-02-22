@@ -1,13 +1,11 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: Check for lowercase in letter
- * character to check
- * Return 0 or 1
+ * _isalpha - checks the alphabet character
+ * @c: a character to be checked on
+ * Return: 0 or 1 depending on the contion
  */
 
-int _isaplha(int c)
+int _isalpha(int c)
 {
-	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
-
-}	
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+}
