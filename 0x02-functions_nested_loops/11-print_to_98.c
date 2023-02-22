@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: Print the numner till 98
+ * print_to_98 ->rint the numner till 98
  * @n: number to start from
  * Return: 0 or 1
  */
