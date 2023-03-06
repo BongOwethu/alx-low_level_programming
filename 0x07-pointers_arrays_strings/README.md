@@ -1,4 +1,4 @@
-this is a readme file for Tasks from 0-9 for the Evenmore pointers, arrays and strings project.
+#This is a readme file for Tasks from 0-9 for the Evenmore pointers, arrays and strings project.
 
 0. memset
 
