@@ -39,7 +39,7 @@ If malloc fails, return NULL
 						
 Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
-where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)	
+Where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)	
 old_size is the size, in bytes, of the allocated space for ptr and new_size is the new size, in bytes of the new memory block
 The contents will be copied to the newly allocated space, in the range from the start of ptr up to the minimum of the old and new sizes
 If new_size > old_size, the “added” memory should not be initialized
