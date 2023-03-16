@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * *malloc_checked - allocates memory using malloc
  * @b: number of bytes to allocate
  * Return:void
  */
+
 void *malloc_checked(unsigned int b)
 {
 void *p;
@@ -11,7 +13,7 @@ void *p;
 p = malloc(b);
 if (p == NULL)
 {
-exit(98);	
+exit(98);
 }
 
 return (p);
