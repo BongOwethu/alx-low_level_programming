@@ -1,4 +1,4 @@
-### This is a readme file for the 0x0C C - More malloc, free which has tasks 0-4 and 2 advance tasks
+### This is a readme file for the 0x0C C - More malloc, free which has tasks 0-3 and 2 advance tasks
 		
 [0. Write a function that allocates memory using malloc.]( 0-malloc_checked.c)
 		
