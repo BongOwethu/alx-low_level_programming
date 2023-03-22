@@ -4,8 +4,7 @@
  * _calloc - allocates memory for an array
  * @nmemb: number of elements in the array
  * @size: size of each element
- *
- * Return: pointer to allocated memory
+ * Return: pointer void
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -16,12 +15,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	p = malloc(nmemb * size);
-
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; i < nmemb * size; i++);
-			p[i] = 0;
+	for (i = 0; i < nmemb * size; i++)
+	p[i] = 0;
 
 	return (p);
 }
