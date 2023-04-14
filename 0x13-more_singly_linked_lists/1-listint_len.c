@@ -9,17 +9,14 @@
 */
 size_t listint_len(const listint_t *h)
 {
-        size_t elements = 0;
+size_t num = 0;
 
-        while (h)
-        {
-                /*count no of elements in increments */
-                elements++;
+ while (h)
+ {
+ num++;
+ h = h->next;
+ }
 
-                /*go to next node*/
-                h = h->next;
-        }
-
-        return (elements);
+ return (num);
 }
 
