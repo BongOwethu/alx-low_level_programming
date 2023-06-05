@@ -1,18 +1,19 @@
 # [C - File I/O](0x15-file_io)
-This is the readme file for the file I/O 4 Tasks.
+This is the readme file for the file I/O that has 4 Tasks.
 
 ## Tasks
 
 - `0. Tread lightly, she is near`
-   [0-read_textfile.c](./0-read_textfile.c): C function that reads a text file and
-  prints it to the `POSIX` standard output.
+   [0-read_textfile.c](./0-read_textfile.c): 
+	C function that reads a text file and prints it to the `POSIX` standard output.
   * The parameter `letters` is the number of letters the function should read and print.
   * If the file is `NULL` or cannot be opened or read - returns `0`.
   * If the `write` call fails or does not write the expected number of bytes - returns `0`.
   * Otherwise - returns the actual number of bytes the function can read and print.
 
 - `1. Under the snow`
-   [1-create_file.c](./1-create_file.c): C function that creates a file.
+   [1-create_file.c](./1-create_file.c): 
+	C function that creates a file.
   * The paramter `filename` is the name of the file to create.
   * The parameter `text_content` is a null-terminated string to write to the file.
   * If `text_content` is `NULL`, the function creates an empty file.
@@ -23,8 +24,8 @@ This is the readme file for the file I/O 4 Tasks.
   * Otherwise - returns `1` on success.
 
 - `2. Speak gently, she can hear`
-   [2-append_text_to_file.c](./2-append_text_to_file.c): C function that appends text at
-  the end of a file.
+   [2-append_text_to_file.c](./2-append_text_to_file.c): 
+	C function that appends text at the end of a file.
   * The parameter `filename` is the name of the file.
   * The parameter `text_content` is a null-terminated string to append to the file.
   * The function does not create the file if it does not exist.
@@ -34,7 +35,8 @@ This is the readme file for the file I/O 4 Tasks.
   * Otherwise - returns `1`.
 
 - `3. cp`
-   [3-cp.c](./3-cp.c): C program that copies the contents of a file to another file.
+   [3-cp.c](./3-cp.c): 
+	C program that copies the contents of a file to another file.
   * Usage: `cp file_from file_to`
   * If `file_to` already exists, it is truncated.
   * The created file has the permissions `rw-rw-r--`.
@@ -54,8 +56,8 @@ This is the readme file for the file I/O 4 Tasks.
     * Where `FD_VALUE` is the value of the file descriptor.
 
 - `4. elf`
-   [100-elf_header.c](./100-elf_header.c): C program that displays the information contained
-  in the `ELF` header at the start of an `ELF` file.
+   [100-elf_header.c](./100-elf_header.c): 
+	C program that displays the information contained in the `ELF` header at the start of an `ELF` file.
   * Usage `elf_header elf_filename`
   * Displayed information:
     * Magic
