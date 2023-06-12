@@ -1,4 +1,4 @@
-#This is a README file for the project C - Recursion that has 8 tasks.
+# This is a README file for the project C - Recursion that has 8 tasks.
 ## [0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](0-puts_recursion.c)
 - Write a function that prints a string, followed by a new line.
 - Prototype to be used is: void _puts_recursion(char *s);
