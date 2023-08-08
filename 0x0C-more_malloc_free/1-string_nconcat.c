@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *string_nconcat - concatenates two strings
- * @s1: first string
- * @s2: secong string
- * @n: index
- * Return: char pointer
+ * *string_nconcat - Two strings concatinated
+ * @s1: String one
+ * @s2: String two
+ * @n: Index
+ * Return: Char pointer
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
