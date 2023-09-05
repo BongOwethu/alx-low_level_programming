@@ -1,4 +1,4 @@
-![github_cover_banner](https://www.google.com/url?sa=i&url=https%3A%2F%2Fseattlewebsitedevelopers.medium.com%2Fquick-overview-of-c-programming-94e6cbdf3f29&psig=AOvVaw2J-r6VXY_lO2JdL9At04gT&ust=1693982944066000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODki6_wkoEDFQAAAAAdAAAAABBV)
+![github_cover_banner](https://github.com/BongOwethu/alx-low_level_programming/blob/main/C%20logo%202.jpg)
 
 # **Welcome to my C prigramming journey!** 🌟
 ## Sprint 1 🏄
