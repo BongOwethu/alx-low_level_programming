@@ -1,3 +1,4 @@
+![github_cover_banner](https://github.com/BongOwethu/alx-low_level_programming/blob/main/alx-banner.jpg)
 ![github_cover_banner](https://github.com/BongOwethu/alx-low_level_programming/blob/main/C%20logo%202.jpg)
 
 # **Welcome to my C prigramming journey!** 🌟
